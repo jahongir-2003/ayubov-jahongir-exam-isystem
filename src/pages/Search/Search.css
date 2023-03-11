@@ -1,0 +1,13 @@
+.MuiTextField-root{
+    background-color: #272f3e !important;
+    color: white !important;
+}
+
+.MuiInputLabel-root{
+    color: white !important;
+}
+
+.MuiFilledInput-input{
+    color: white !important;
+}
+

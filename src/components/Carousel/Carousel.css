@@ -1,0 +1,36 @@
+.alice-carousel{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.carouselItem{
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    padding: 10px;
+}
+.carouselItem__img{
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 5px black;
+}
+.my-img-carousel{
+    max-width: 180px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.carouselItem__text{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .carouselItem__text{
+        font-size: 20px;
+    }
+    .carouselItem__img{
+        height: 50vh;
+    }
+}

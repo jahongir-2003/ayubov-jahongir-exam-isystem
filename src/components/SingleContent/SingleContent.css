@@ -1,0 +1,54 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+    margin: 15px 0;
+    background-color: #232c34;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+    transition: 0.3s all linear;
+    cursor: pointer;
+}
+
+.poster{
+    width: 100% !important;
+}
+
+.lazy-load-image-background{
+    width: 100%;
+}
+
+.media:hover{
+    background-color: white;
+    color: black;
+}
+
+.poster{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    padding: 8px 0;
+    height: 70px;
+}
+
+@media (max-width: 576px) {
+    .title{
+        height: initial;
+    }
+}
+
+.subTitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+

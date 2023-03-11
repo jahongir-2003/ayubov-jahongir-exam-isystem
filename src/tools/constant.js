@@ -1,0 +1,1 @@
+export const PATH_NAME = "https://api.themoviedb.org/3";
